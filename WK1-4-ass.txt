@@ -1,0 +1,15 @@
+Design a beautiful looking calculator that performs these basic functions:
+1. Compute basic arithmetic (+, -, *, /, = and CE for clear)
+
+2. Use functions as applicable. It is expected that you have a function for adding input, another one for 
+computing the result, and another one for clearing the display
+
+3. Use external javascript to execute this task
+
+4. DO NOT copy YouTube codes for this assignment. DO NOT copy codes directly on AI, as this will be very obvious for me to spot
+
+6. Share the link to your github repository for review
+
+7. Kindly turn your work in by sending to my WhatsApp on or before Sunday, June 21, 2026 by 05:59pm. Late submission is strictly discouraged.
+
+You are encouraged to reach out if you have any challenge during the development of this project.
