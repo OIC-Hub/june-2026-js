@@ -6,9 +6,9 @@ function convertToSec(minutes){
 let sec1 = convertToSec(2);
 console.log(sec1);
 
-// let userInput = prompt("Enter the minutes you want to convert");
-// let sec2 = convertToSec(userInput);
-// console.log(`The result of converting ${userInput}minutes to seconds is ${sec2}seconds`);
+let userInput = prompt("Enter the minutes you want to convert");
+let sec2 = convertToSec(userInput);
+console.log(`The result of converting ${userInput}minutes to seconds is ${sec2}seconds`);
 
 function addition(a, b){
     return a + b;
