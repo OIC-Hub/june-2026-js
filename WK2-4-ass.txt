@@ -1,0 +1,16 @@
+Pick your assignment based on your name:
+1. Student Grade Evaluator - Dayo
+2. Simple Login Authentication - Samuel
+3. Student Grade Evaluator - Feyikemi
+4. Simple Login Authentication - Oyin
+
+
+Create a README.md file and explain what your project is about.
+
+Push the code to your github and host to vercel and ensure you have your work on index.html
+DO NOT SUBMIT AI GENERATED CODE
+
+- Share the link to the vercel and also the link to your github repository for review
+- Kindly turn your work in by sending to my WhatsApp on or before Sunday, June 28th, 2026 by 04:59pm. Late submission is strictly discouraged.
+
+You are encouraged to reach out if you have any challenge during the development of this project.
