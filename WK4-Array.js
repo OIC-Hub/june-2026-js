@@ -47,3 +47,18 @@ const checkType = Array.isArray(cars)
 
 console.log(checkType)
 
+const combinedArray = [[1, 2], [3, 4], [4, 5]]
+
+// console.log(combinedArray.flat());
+
+const converrtedArray = combinedArray.flat();
+console.log(converrtedArray.flatMap(x => [x, x * 10]));
+
+// console.log(converrtedArray.splice(4, 0, "6", "7"))
+
+const jobs = ["engineer", "teacher", "doctor"]
+// console.log(jobs.indexOf(1))
+const endResult = jobs.toSpliced(2, 1)
+console.log(endResult)
+
+console.log(jobs.toString())
