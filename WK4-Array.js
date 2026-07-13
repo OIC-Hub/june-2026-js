@@ -1,3 +1,5 @@
+"use strict"
+
 const cars = []
 
 cars[0] = "Volvo"
@@ -62,3 +64,33 @@ const endResult = jobs.toSpliced(2, 1)
 console.log(endResult)
 
 console.log(jobs.toString())
+
+const findNumber = [0, 10, 25, 18, 0]
+
+// function findBiggerNumber(value){
+//     return value > 18
+// }
+
+// const BiggerNumberResult = findNumber.findLastIndex(findBiggerNumber)
+// console.log(BiggerNumberResult)
+
+
+function MapNumber(value){
+    return value * 2
+}
+
+// const Numbers2 = findNumber.map(MapNumber)
+// const Numbers2 = findNumber.flatMap(MapNumber)
+
+
+// console.log(Numbers2)
+
+const ObjectItem = [true, true, true]
+
+function CalCal(total, value){
+    return total + value;
+}
+
+const calculateString = ObjectItem.reduce(CalCal)
+
+console.log(calculateString);
