@@ -275,6 +275,35 @@ while (i < 5) {
 ```
 
 ---
+# 6. The `do...while` Loop — Run First, Check Later
+
+The `do...while` loop is similar to the `while` loop — but with one big difference:
+
+> **`while`** checks the condition **before** running the code.
+> **`do...while`** runs the code **first**, then checks the condition.
+
+This means a `do...while` loop **always runs at least once** — even if the condition is false from the start.
+
+### Syntax
+
+```js
+do {
+  // code to run
+} while (condition);
+```
+
+### Simple Example
+
+```js
+let count = 1;
+
+do {
+  console.log(count);
+  count++;
+} while (count <= 5);
+
+
+
 
 ## 5. The `forEach` Method — Loop for Arrays
 
@@ -483,3 +512,23 @@ for (let score of scores) {
 3. Create an array of numbers. Use a loop to add them all together and print the total.
 4. Loop through an array of names. If the name is "Grace", print "Found Grace!" and stop the loop.
 5. **Bonus:** Create an array of numbers 1 to 10. Loop through and print only the even numbers. Hint: a number is even if `number % 2 === 0`.
+
+
+
+
+
+Assignment: ATM PIN Verification System
+
+Write a JavaScript program that simulates an ATM login process.
+
+Requirements
+A user must enter their PIN.
+The correct PIN is 1234.
+If the user enters the correct PIN, display:
+Access granted! ✅
+If the PIN is incorrect, allow the user to try again.
+The user should have a maximum of 3 attempts.
+After each incorrect attempt, display:
+Wrong PIN. Try again.
+If the user fails all 3 attempts, display:
+Too many failed attempts. Account locked. ❌

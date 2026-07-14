@@ -59,3 +59,13 @@ const person = {
 for(let key in person){
     console.log(key + ":" + person[key])
 }
+
+
+
+
+let count = 1;
+
+do {
+  console.log(count);
+  count++;
+} while (count <= 1000);
